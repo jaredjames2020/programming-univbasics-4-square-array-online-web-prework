@@ -1,11 +1,14 @@
 def square_array(array)
   counter = 0 
-  array = [ ]
+  any_array = [ ]
 
   while counter < array.count do
-    array[counter]**2
+    any_array[counter]**2
     counter +=1
   end
+  
+  return any_array
+  
 end
 
 square_array([1,2,3])
